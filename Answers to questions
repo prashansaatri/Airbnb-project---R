@@ -1,0 +1,103 @@
+Question 1
+Where are the cheapest and most expensive neighborhoods to rent an Airbnb in Denver?
+To find a solution to a question like this, we used data that was provided from Airbnb. With this data, we
+created a subset with only the Airbnb’s listed in Denver, Colorado. Through several data cleaning methods,
+we divided each listing based on its respective neighborhood and took the average of all the prices for
+each neighborhood. Once we obtained the average prices of each neighborhood in Denver, we
+established a definition for “cheap” and “expensive”. To do this, we narrowed down the neighborhoods
+based on price. The data presented a normal distribution when evaluated through a histogram. This
+presented the opportunity to gather the standard deviation with respect to the mean in the data. To
+determine our definition of cheap, we concluded that anything that falls two standard deviations below
+the mean would account for our definition of the term “cheap”. The same method was used to create our
+definition of “expensive”, which included collecting all the neighborhoods that fall two standard
+deviations above the mean.
+With respect to the average price of each neighborhood, we can say with confidence that this statistical
+method will be a logical representation of the cheapest and most expensive neighborhoods located in
+Denver, Colorado. One can refer to the graph below for a visual representation of our result.
+The graph above shows the mean price of every neighborhood in Denver, Colorado. From this data, the
+mean of the entire dataset is $148.90. This tells us that an Airbnb in Denver, regardless of neighborhood,
+is around $148.90. From this, we found the standard deviation of the dataset which was $46.54. After
+taking two standard deviations from the mean, we determined that neighborhoods that average below
+$55.85 are considered cheap neighborhoods. Alternatively, we concluded that any neighborhood that
+falls above an average of $242.01 is considered an expensive area to book an Airbnb. This logic can be
+seen represented in the graph below.
+According to our findings, we can infer that Southmoor Park is the cheapest neighborhood in Denver to
+rent an Airbnb.
+To summarize, our findings showed that Wellshire, Belcaro, and Civic Center are all amongst the costliest. 
+While this question is targeted toward consumer spendings, we can also infer that as a host, one can make
+potentially greater profits from buying a property in one of the established expensive neighborhoods as
+opposed to purchasing in the latter.
+
+
+Question 2
+A potential host has purchased a property at the address 3018 Arapahoe Street in Denver, CO for
+$885,000 with the goal of renting it via Airbnb. How much should the owner charge per night to rent
+this property? Is there anything to highlight in this listing?
+The first course of action to begin analyzing this question was to verify which neighborhood 3018
+Arapahoe Street was a part of. With help from Google Maps, we found that the property was in Five
+Points. Once we familiarized ourselves with the location of the neighborhood, we began to clean the data
+we have from Airbnb. We took the approach of finding the average price of all the listings that matched
+the parameters set by the property that the potential host was inquiring about. This included limiting our
+search to properties that were in Five Points, were listed as an “Entire home”, and were all three
+bedrooms, two baths. This subset returned exactly six different properties in Five Points that met the
+criteria of the listing. From this point, we took the average price of all six properties and can confidently
+conclude that the average price of a three-bedroom, two-bathroom house in Five Points is around $314.17
+a night.
+This average, of course, comes with the assumption that the property will only be rented out to an
+individual person, or family, at a given time. Because of this, we decided to take an alternative approach.
+We created an additional subset of data that investigated the average cost of private rooms in Five Points,
+without taking the criteria given into account. The average price of renting out a private room in Five
+Points is around $109.32.
+Once we established the minimum price that the property should be listed for, we decided to take an
+additional step and determine how much profit the potential host would make from listing the price at
+the base average. The following steps come with the these given assumptions:
+1. The property is rented out year-round.
+2. No down payment is given at the time of purchase.
+3. If renting private rooms, each room in the house is rented at full capacity during a calendar year.
+4. All profits are being used to pay off the house loan as quickly as possible.
+5. Home loan interest and additional fees are not considered.
+We took the average of a private room in Five Points and multiplied that by how many bedrooms are
+listed in the property. In this case, the property has three bedrooms, so we can confidently assume that,
+if listed at that base average, the potential host can secure a profit of $327.96 a day. While the difference
+of $13.79 can seem miniscule daily, the effects can be seen on an annual basis. If our potential host were
+to rent their property out to one individual, or family, at a time at the base average for a full year, the
+earnings would be $114,672.05. Alternatively, if the potential host were to rent out private rooms and be
+booked at full capacity year-round, they would be looking at gross earnings of $119,705.40. The results
+can be seen in the visual representation below. Briefly, we can see that the host has a potential of paying off their property relatively quickly when
+compared to a standard 20–30-year loan. Ultimately, the owner will take about seven to eight years to
+pay off the property, with a difference in savings of approximately three months if they opt to rent each
+room individually rather than the entire property.
+
+
+Question 3
+Can we find a better property in Denver to purchase as a short-term rental? Are some neighborhoods
+better than others for buying a short-term rental?
+The first step we had to take to begin coming to a solution for this problem is to define “short-term rental”
+and the word “better” presented in the question. To establish what constitutes a short-term rental, we
+referred to Colorado State law, which defines a short-term rental as a property that is rented for a period
+shorter than thirty days (Larkin & Brimah, 2022). Once this was resolved, we then started to question what
+would make a neighborhood “better”. We came to the agreement that the only relative factor that a
+potential host would be concerned about would be profitability. Therefore, we narrowed down our
+findings to only properties that are available for rent for a period less than thirty days and that are in
+neighborhoods that are more profitable than others.
+once again to the data provided from Airbnb, we tethered our results to only listings that were available
+for a maximum of twenty-nine or fewer nights. In addition to the average price per neighborhood, we
+wanted to look at what consumers considered to be the amongst the top-rated locations. This type of
+user input allowed us to further restrict our findings to short term rentals that are in favorable locations.
+Once we cleaned our data to only include listings that are considered short term rentals, we took the
+mean of location review scores amongst each neighborhood.
+Subsequently, we wanted to further condense our findings. From this new data set, we took a summary
+of the review scores and found that three quarters of the review scores are at 4.94. From here, we wanted
+all short-term properties that had location ratings of 4.94 or above to find which neighborhoods had the
+most favorable locations based on customer reviews. While this returned fifteen potential neighborhoods
+that are considered, by our definition, better to buy in, we wanted to limit our results to three
+neighborhoods to make things easier for a potential host to invest. To do this, we merged our data with 
+the average price per neighborhood, which we found earlier in the first question, to know how much our
+potential host can earn from each top-rated neighborhood with prevalent short-term rentals. Below are
+our results for the top three neighborhoods we found to be both, in the most favorable neighborhoods
+and have the most potential for profitability. 
+
+
+
+
+
